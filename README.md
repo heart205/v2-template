@@ -1,29 +1,29 @@
-# vue-template
+# vue2 template
 
-## Project setup
+```js
+.
+├── README.md
+├── babel.config.js
+├── jsconfig.json
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── img
+│   └── index.html
+├── src
+│   ├── App.vue
+│   ├── assets
+│   ├── components
+│   ├── index.less
+│   ├── main.js
+│   ├── pages
+│   ├── registerServiceWorker.js
+│   ├── router
+│   │   └── index.js
+│   └── store
+│       └── index.js
+├── tests
+│   └── unit
+│       └── example.spec.js
+├── vue.config.js
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
